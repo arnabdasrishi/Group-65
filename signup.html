@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        #box {
+            width: 25vw;
+            height: 60vh;
+            border: 1px solid black;
+            margin: 90px auto;
+            font-family: sans-serif;
+            background-color: #47c9af;
+        }
+
+        #sign {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 2rem;
+            color: white;
+            margin: 50px 0;
+        }
+
+        .up {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 80%;
+            padding: 10px 0;
+        }
+
+        #return {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .turn {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background: #17a689;
+            width: 73%;
+            padding: 10px 0;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div>
+            <p>- Visitor -</p>
+        </div>
+        <div id="sign">
+            <!-- 1st -->
+            <div class="up">
+                <input type="text" placeholder="Full Name">
+            </div>
+            <!-- 2nd -->
+            <div class="up">
+                <input type="email" placeholder="Email">
+            </div>
+            <!-- 3rd -->
+            <div class="up">
+                <input type="text" placeholder="Organization">
+            </div>
+        </div>
+
+        <!--         -->
+
+        <div id="return">
+            <div class="turn">
+                <button>SIGN UP</button>
+            </div>
+            <div class="turn" id="ac">
+                <BUtton>RETURN</BUtton>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html> 
