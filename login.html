@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(to right, rgb(69 135 209), rgb(123 85 182)) no-repeat;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main_container {
+            width: 25vw;
+            height: 90vh;
+            margin-top: 40px;
+            background-color: white;
+            border-radius: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: black;
+            font-size: 2rem;
+            text-align: center;
+            margin: 90px 0;
+            font-weight: bolder;
+        }
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 20px 0;
+            border: none;
+            border-bottom: 3px solid grey;
+        }
+
+        input::placeholder {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        button {
+            background: linear-gradient(to right, rgb(69 135 209), rgb(123 85 182));
+            width: 81%;
+            padding: 15px 0;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            margin-top: 25px;
+
+        }
+        .creds{
+            display: flex;
+            flex-direction: column;
+            margin-top: 80px;
+            align-items: center;
+        }
+        .creds>p{
+            margin-bottom: 20px;
+        }
+
+        span{
+            color: rgb(123 85 182);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <h2>Login</h2>
+        <div class="input">
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="password" placeholder="Password">
+        </div>
+        <button>Login</button>
+        <div class="creds">
+            <p class="forgot">Forgot <span>Password</span>?</p>
+            <p class="signup">Don't have an account? <span>Sign up</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
