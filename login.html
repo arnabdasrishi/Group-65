@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            background-color: rgb(79, 79, 255);
+        }
+        #container{
+            width: 25%;
+            height: auto;            
+            margin: auto;
+            text-align: center;
+            padding: 80px 40px;
+            margin-top: 100px;
+            border-radius: 20px;
+            background-color: white;
+        }
+        #form>input{
+            display: block;
+            margin: auto;
+            margin-bottom: 30px;
+            height: 30px;
+            width: 100%;
+            border: none;
+            cursor: pointer;           
+        }
+        #form>input:nth-child(1){
+            border-bottom: 2px solid grey;
+        }
+        #form>input:nth-child(2){
+            border-bottom: 2px solid grey;
+        }
+        #form>input:nth-child(3){
+            background-color: rgb(79, 79, 255);
+            color: white;
+        }
+        span{
+            color: rgb(50, 81, 255);
+        }
+        span:hover{
+            
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <form id="form">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+        <p>Forgot <span>Password</span></p>
+        <p>Don't have an account? <span>Sign Up</span></p>
+    </div>
+</body>
+
+</html> 
+
+
